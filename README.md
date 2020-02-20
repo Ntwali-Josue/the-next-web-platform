@@ -9,5 +9,6 @@ Laying out the basic structure of the page using empty semantic HTML elements th
 BUILT WITH:
 *HTML
 *CSS
+
 AUTHOR:
 KARANGWA Ntwali Josue
