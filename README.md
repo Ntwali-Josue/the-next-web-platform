@@ -1,5 +1,4 @@
 # The Next Web Platform
-# BUILDING WITH RESPONSIVE DESIGN
 
 In this project,  we'll be building a responsive website by cloning The Next Web, a tech-focused magazine which uses media queries to gracefully degrade their site as the window size is reduced.
 
