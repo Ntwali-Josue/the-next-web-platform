@@ -9,8 +9,7 @@ header{
 .header-list-1{
     background:#131313;
     display:flex;
-    padding-bottom: 15px;
-    list-style: none;
+    padding-bottom:15px;
 }
 .news-terms{
     width:75%;
@@ -22,28 +21,34 @@ header{
 .news-terms li{
     float: left;
     list-style: none;
-    padding-left: 15px;
-    color:white;
-    text-align:center;
-    /* opacity:.8; */
-    /* line-height: 32px; */
+    padding-left:15px;
 }
 .news-terms li a{
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
 .news{
-    color:white
+    color:white;  
 }
 .news-terms ul li :hover{
     color:white;
-} 
-.news-terms ul li ul li {
-    display: none;
-    float: none;
 }
-.news-terms ul li :hover ul{
-    display:block;
+.sub-menu {
+    display:none;
+    width:200px;
+}
+.sub-menu li{
+    float: none;
+    font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+}
+.news-terms ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color:black;
+}
+.news-terms ul li:hover .sub-menu  li{
+    padding: 10px;
+    border-bottom: 1px solid #aaa;
 }
 .about-contacts{
     width: 25%;
@@ -92,7 +97,7 @@ header{
 .kicks-off li{
     float: left;
     list-style: none;
-    padding-left: 10px;
+    padding-left: 15px;
     font-size: 15px;
 }
 .kicks-off li a{
@@ -102,5 +107,13 @@ header{
 }
 .kicks-off li button{
     background:#0cc;
-    border-radius:1px;
+    border-radius:3px;
+    border: none;
+    padding:5px;
+    color: white;
+    font-weight:700;
+    font-size:1opx
+}
+.kicks-off ul li button:hover{
+    background-color: rgb(153, 0, 167);
 }
