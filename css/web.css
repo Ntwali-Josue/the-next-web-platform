@@ -6,14 +6,109 @@ header{
     margin:0;
     padding:0;
 }
+.tnw-logo{
+    display:none;
+}
+.search{
+    display:none;
+    border-left:1px solid #eee;
+}
+.search a i :hover{
+    color:#000;
+}
+.container-2{
+    display: none;
+}
+@media (max-width:1200px){
+    .tnw-logo{
+        display:block;
+        width:146px;
+        float:left;
+    }
+    .tnw-logo img{
+        width:100%;
+    }
+    .container-1{
+        display: none;
+    }
+    .container-2{
+        display: block;
+    }
+    .news-terms ul li a{
+        font-size:12px;
+    }
+    .about-contacts{
+        width:40%
+    }
+    .about-contacts li{
+        display: inline-block;
+    }
+    .about-contacts ul li a{
+        padding-left:3px;
+        font-size:12px;
+    }
+    .latest{
+        float:left;
+    }
+    .latest ul li{
+        padding:0
+    }
+    .latest ul li a{
+        padding-left:10px;
+        font-size:12px;
+    }
+    .news-terms{
+        padding-bottom: 15px;
+    }
+    .about-contacts ul{
+        margin:0;
+        padding:15px 0;
+    }
+    .header-list-3{
+        padding:0;
+        margin:0;
+    }
+    .search{
+        display:block;
+        padding-top:15px;
+        margin-left:300px;
+        margin-right:20px
+    }
+    .bg-yellow a{
+        padding-left:150px;
+    }
+}
+@media (max-width:1300px){
+    .container-1{
+        display: none;
+    }
+    .container-2{
+        display: block;
+    }
+    .search{
+        display:block;
+        padding-top: 15px;
+        padding-left:25px;
+        margin-left:300px;
+    }
+    .about-contacts{
+        width:40%
+    }
+    .about-contacts li{
+        display: inline-block;
+    }
+    .about-contacts ul li a{
+        padding-left:3px;
+    }
+}   
 .header-list-1{
     background:#131313;
     display:flex;
-    padding-bottom:15px;
+    margin:0;
+    padding:0;
 }
 .news-terms{
-    width:75%;
-    /* height: 30px; */
+    width:75%
 }
 .news-terms ul{
     padding: 0;
@@ -24,14 +119,16 @@ header{
     padding-left:15px;
 }
 .news-terms li a{
-    color: rgba(255, 255, 255, 0.6);
+    color: #929292;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
-.news{
-    color:white;  
+.active-link{
+    color:#fff;  
 }
 .news-terms ul li :hover{
-    color:white;
+    color:#fff;
 }
 .sub-menu {
     display:none;
@@ -44,7 +141,7 @@ header{
 .news-terms ul li:hover .sub-menu{
     display: block;
     position: absolute;
-    background-color:black;
+    background-color:#000;
 }
 .news-terms ul li:hover .sub-menu  li{
     padding: 10px;
@@ -53,22 +150,27 @@ header{
 .about-contacts{
     width: 25%;
 }
+.about-contacts ul{
+    margin-left:55px;
+}
 .about-contacts li{
-    float: left;
-    list-style: none;
-    padding-left: 15px;
+    display:inline-block;
+    list-style:none;
 }
 .about-contacts li a{
-    color: rgba(255, 255, 255, 0.6);
+    color: #929292;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-left: 10px;
 }
 .about-contacts ul li :hover{
-    color:white
+    color:#fff;
 }
 .header-list-2{
     display:flex;
     padding-bottom: 15px;
-    background:rgb(253, 253, 253);
+    background:#fcfcfc;
 }
 .latest{
     width:70%;
@@ -88,7 +190,7 @@ header{
     text-decoration: none;
 }
 .latest ul li :hover{
-    color:black
+    color:#000;
 }
 .kicks-off{
     width:40%;
@@ -101,19 +203,58 @@ header{
     font-size: 15px;
 }
 .kicks-off li a{
-    color:red;
-    font-size: 20px;
-    text-decoration: none;
+    text-decoration:none;
+}
+.kicks-off ul li .number{
+    font-size:20px;
+    color:#fc0307;
 }
 .kicks-off li button{
     background:#0cc;
     border-radius:3px;
     border: none;
     padding:5px;
-    color: white;
+    color: #fff;
     font-weight:700;
-    font-size:1opx
+    font-size:13px;
 }
 .kicks-off ul li button:hover{
-    background-color: rgb(153, 0, 167);
+    background-color: #99009e;
+}
+.bg-yellow{
+    background-color:#e8c602;
+    height:20px;
+    padding:10px 12px;
+}
+.bg-yellow a{
+    text-decoration:none;
+    color:#000;
+    font-size:15px;
+    box-shadow: #d6d6d2;
+    font-family: Verdana;
+}
+.header-list-3{
+    display:flex;
+    padding-bottom: 15px;
+    background:#fcfcfc;
+}
+.latest{
+    width:70%;
+}
+.latest ul{
+    padding:5px;
+}
+.latest li{
+    float:left;
+    list-style: none;
+    padding:0 10px;
+}
+.latest li a{
+    color: #aaa;
+    font-family: Shentox,sans-serif;
+    font-size:13px;
+    text-decoration: none;
+}
+.latest ul li :hover{
+    color:#000;
 }
