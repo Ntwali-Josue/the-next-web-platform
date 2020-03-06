@@ -1,26 +1,32 @@
-body{
-    margin:0;
-    padding:0;
+body {
+  margin: 0;
+  padding: 0;
 }
-header{
-    margin:0;
-    padding:0;
+
+header {
+  margin: 0;
+  padding:0;
 }
-.tnw-logo{
-    display:none;
+
+.tnw-logo {
+  display: none;
 }
-.search{
-    display:none;
-    border-left:1px solid #eee;
+
+.search {
+  display:none;
+  border-left: 1px solid #eee;
 }
-.search a i :hover{
-    color:#000;
+
+.search a i :hover {
+  color: #000;
 }
-.container-2{
-    display: none;
+
+.container-2 {
+  display: none;
 }
-@media (max-width:1200px){
-    .tnw-logo{
+
+@media (max-width:1200px) {
+    .tnw-logo{ 
         display:block;
         width:146px;
         float:left;
@@ -78,7 +84,8 @@ header{
         padding-left:150px;
     }
 }
-@media (max-width:1300px){
+
+@media (max-width: 1300px){
     .container-1{
         display: none;
     }
@@ -100,6 +107,7 @@ header{
     .about-contacts ul li a{
         padding-left:3px;
     }
+
 }   
 .header-list-1{
     background:#131313;
@@ -122,7 +130,7 @@ header{
     color: #929292;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size:14px;
 }
 .active-link{
     color:#fff;  
