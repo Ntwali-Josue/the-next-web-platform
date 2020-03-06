@@ -5,7 +5,7 @@ body {
 
 header {
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
 .tnw-logo {
@@ -13,7 +13,7 @@ header {
 }
 
 .search {
-  display:none;
+  display: none;
   border-left: 1px solid #eee;
 }
 
@@ -26,55 +26,58 @@ header {
 }
 
 @media (max-width:1200px) {
-    .tnw-logo{ 
-        display:block;
-        width:146px;
-        float:left;
-    }
-    .tnw-logo img{
-        width:100%;
-    }
-    .container-1{
-        display: none;
-    }
-    .container-2{
-        display: block;
-    }
-    .news-terms ul li a{
-        font-size:12px;
-    }
-    .about-contacts{
-        width:40%
-    }
-    .about-contacts li{
-        display: inline-block;
-    }
-    .about-contacts ul li a{
-        padding-left:3px;
-        font-size:12px;
-    }
-    .latest{
-        float:left;
-    }
-    .latest ul li{
-        padding:0
-    }
-    .latest ul li a{
-        padding-left:10px;
-        font-size:12px;
-    }
-    .news-terms{
-        padding-bottom: 15px;
-    }
-    .about-contacts ul{
-        margin:0;
-        padding:15px 0;
-    }
-    .header-list-3{
-        padding:0;
-        margin:0;
-    }
-    .search{
+
+  .tnw-logo{ 
+    display: block;
+    width: 146px;
+    float: left;  
+}
+
+  .tnw-logo img {
+    width: 100%;
+}
+  .container-1 {
+    display: none;
+}
+    
+  .container-2 {
+    display: block;
+}
+  .news-terms ul li a {
+    font-size: 12px;
+}
+  .about-contacts {
+    width: 40%;
+}
+  .about-contacts li {
+    display: inline-block;
+}
+  .about-contacts ul li a {
+    padding-left: 3px;
+    font-size: 12px;
+}
+  .latest {
+    float: left;
+}
+  .latest ul li {
+    padding: 0;
+}
+  .latest ul li a {
+    padding-left: 10px;
+    font-size: 12px;
+}  
+  .news-terms {
+    padding-bottom: 15px;
+}
+  .about-contacts ul {
+    margin: 0;
+    padding: 15px 0;
+}
+  .header-list-3 {
+    padding: 0;
+    margin: 0;
+}
+  .search{
         display:block;
         padding-top:15px;
         margin-left:300px;
