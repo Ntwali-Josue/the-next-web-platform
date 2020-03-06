@@ -143,6 +143,7 @@ header{
     position: absolute;
     background-color:#000;
 }
+
 .news-terms ul li:hover .sub-menu  li{
     padding: 10px;
     border-bottom: 1px solid #aaa;
