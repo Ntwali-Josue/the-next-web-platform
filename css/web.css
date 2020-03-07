@@ -27,11 +27,9 @@ header {
 
 @media (max-width: 1200px) {
   .tnw-logo {
-
     display: block;
     width: 146px;
     float: left;
-
   }
 
   .tnw-logo img {
@@ -95,7 +93,6 @@ header {
   }
 
   .search {
-
     display: block;
     padding-top: 15px;
     margin-left: 300px;
@@ -130,8 +127,8 @@ header {
   .about-contacts ul li a {
     padding-left: 3px;
   }
-}   
 
+}
 .header-list-1 {
   background: #131313;
   display: flex;
@@ -169,7 +166,8 @@ header {
 }
 
 .active-link {
-  color: #fff;  
+  color: #fff;
+
 }
 
 .news-terms ul li :hover {
@@ -222,6 +220,7 @@ header {
 .about-contacts ul {
   margin-left: 55px;
 }
+
 .about-contacts li a {
   color: #929292;
   text-decoration: none;
