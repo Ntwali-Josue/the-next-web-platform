@@ -127,8 +127,8 @@ header {
   .about-contacts ul li a {
     padding-left: 3px;
   }
-
 }
+
 .header-list-1 {
   background: #131313;
   display: flex;
@@ -155,7 +155,7 @@ header {
   color: #000;
   font-size: 15px;
   box-shadow: #d6d6d2;
-  font-family: Verdana;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .news-terms li a {
@@ -167,7 +167,6 @@ header {
 
 .active-link {
   color: #fff;
-
 }
 
 .news-terms ul li :hover {
@@ -295,5 +294,4 @@ header {
 .header-list-3 {
   display: flex;
   padding-bottom: 15px;
-  background: #fcfcfc;
-}
+  background: #fcfcfc;}
