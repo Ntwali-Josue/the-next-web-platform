@@ -56,10 +56,12 @@ header {
   .about-contacts {
     width: 40%;
   }
-  .about-contacts ul{
-    padding-right:30px;
-    margin-left:20px;
+
+  .about-contacts ul {
+    padding-right: 30px;
+    margin-left: 20px;
   }
+
   .about-contacts li {
     display: inline-block;
   }
@@ -84,11 +86,6 @@ header {
 
   .news-terms {
     padding-bottom: 15px;
-  }
-
-  .about-contacts ul {
-    margin: 0;
-    padding: 15px 0;
   }
 
   .header-list-3 {
@@ -241,6 +238,7 @@ header {
   padding-bottom: 15px;
   background: #fcfcfc;
 }
+
 .latest ul {
   padding: 5px;
 }
@@ -301,13 +299,11 @@ header {
   margin-right: 40px;
   cursor: pointer;
   padding-top: 15px;
-}
-
-.checkbtn {
   display: none;
 }
 
-@media(max-width:1000px) {
+@media(max-width: 1000px) {
+
   .checkbtn {
     display: block;
   }
@@ -329,15 +325,16 @@ header {
   }
 }
 
-@media(max-width:1054px) {
+@media(max-width: 1054px) {
+
   .news-terms {
     width: 70%;
     margin: 0;
-   }
+  }
 
-  .about-contacts{
+  .about-contacts {
     width: 30%;
-   }
+  }
 }
 
 .srch {
