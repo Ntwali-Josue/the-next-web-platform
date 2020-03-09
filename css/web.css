@@ -302,8 +302,7 @@ header {
   display: none;
 }
 
-@media(max-width: 1000px) {
-
+@media (max-width: 1000px) {
   .checkbtn {
     display: block;
   }
@@ -325,8 +324,7 @@ header {
   }
 }
 
-@media(max-width: 1054px) {
-
+@media (max-width: 1054px) {
   .news-terms {
     width: 70%;
     margin: 0;
