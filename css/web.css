@@ -4,8 +4,8 @@ body {
 }
 
 header {
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 .tnw-logo {
@@ -13,121 +13,10 @@ header {
 }
 
 .search {
-  display: none;
   border-left: 1px solid #eee;
-}
-
-.search a i :hover {
-  color: #000;
-}
-
-.container-2 {
-  display: none;
-}
-
-@media (max-width: 1200px) {
-  .tnw-logo {
-    display: block;
-    width: 146px;
-    float: left;
-  }
-
-  .tnw-logo img {
-    width: 100%;
-  }
-
-  .container-1 {
-    display: none;
-  }
-
-  .container-2 {
-    display: block;
-  }
-
-  .bg-yellow a {
-    padding-left: 150px;
-    position: fixed;
-  }
-
-  .news-terms ul li a {
-    font-size: 12px;
-  }
-
-  .about-contacts {
-    width: 40%;
-  }
-
-  .about-contacts ul {
-    padding-right: 30px;
-    margin-left: 20px;
-  }
-
-  .about-contacts li {
-    display: inline-block;
-  }
-
-  .about-contacts ul li a {
-    padding-left: 3px;
-    font-size: 12px;
-  }
-
-  .latest {
-    float: left;
-  }
-
-  .latest ul li {
-    padding: 0;
-  }
-
-  .latest ul li a {
-    padding-left: 10px;
-    font-size: 12px;
-  }
-
-  .news-terms {
-    padding-bottom: 15px;
-  }
-
-  .header-list-3 {
-    padding: 0;
-    margin: 0;
-  }
-
-  .search {
-    display: block;
-    padding-top: 15px;
-    margin-left: 450px;
-    margin-right: 20px;
-  }
-}
-
-@media (max-width: 1300px) {
-  .container-1 {
-    display: none;
-  }
-
-  .container-2 {
-    display: block;
-  }
-
-  .search {
-    display: block;
-    padding-top: 15px;
-    padding-left: 25px;
-    margin-left: 300px;
-  }
-
-  .about-contacts {
-    width: 40%;
-  }
-
-  .about-contacts li {
-    display: inline-block;
-  }
-
-  .about-contacts ul li a {
-    padding-left: 3px;
-  }
+  width:16px;
+  padding-top:10px;
+  padding-left:10px;
 }
 
 .header-list-1 {
@@ -135,10 +24,12 @@ header {
   display: flex;
   margin: 0;
   padding: 0;
+  width:100%;
 }
 
 .news-terms {
-  width: 75%;
+  width: 74%;
+  padding-left:1%;
 }
 
 .news-terms ul {
@@ -148,7 +39,6 @@ header {
 .news-terms li {
   float: left;
   list-style: none;
-  padding-left: 15px;
 }
 
 .bg-yellow a {
@@ -163,7 +53,9 @@ header {
   color: #929292;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
+  font-weight:700;
+  padding-left: 10px;
 }
 
 .active-link {
@@ -195,17 +87,13 @@ header {
   list-style: none;
 }
 
+.latest {
+  width: 95%;
+}
+
 .latest li {
   float: left;
   list-style: none;
-  padding: 0 10px;
-}
-
-.kicks-off li {
-  float: left;
-  list-style: none;
-  padding-left: 15px;
-  font-size: 15px;
 }
 
 .news-terms ul li:hover .sub-menu li {
@@ -217,16 +105,13 @@ header {
   width: 25%;
 }
 
-.about-contacts ul {
-  margin-left: 55px;
-}
-
 .about-contacts li a {
   color: #929292;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  padding-left: 10px;
+  font-size: 12px;
+  padding-right: 3px;
+  font-weight: 700;
 }
 
 .about-contacts ul li :hover {
@@ -240,7 +125,7 @@ header {
 }
 
 .latest ul {
-  padding: 5px;
+  padding-left: 15px;
 }
 
 .latest li a {
@@ -248,44 +133,20 @@ header {
   font-family: Shentox, sans-serif;
   font-size: 13px;
   text-decoration: none;
+  padding: 0 10px;
 }
 
 .latest ul li :hover {
   color: #000;
 }
 
-.kicks-off {
-  width: 40%;
-  border-left: 1px solid #eee;
-}
-
-.kicks-off li a {
-  text-decoration: none;
-}
-
-.kicks-off ul li .number {
-  font-size: 20px;
-  color: #fc0307;
-}
-
-.kicks-off li button {
-  background: #0cc;
-  border-radius: 3px;
-  border: none;
-  padding: 5px;
-  color: #fff;
-  font-weight: 700;
-  font-size: 13px;
-}
-
-.kicks-off ul li button:hover {
-  background-color: #99009e;
-}
-
 .bg-yellow {
   background-color: #e8c602;
   height: 20px;
-  padding: 10px 12px;
+  width:98%;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:2%;
 }
 
 .header-list-3 {
@@ -302,39 +163,157 @@ header {
   display: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1213px) {
+  
+  .disp-none{
+    display:none;
+  }
+
+  .about-contacts {
+    width:25%;
+    margin:0;
+    padding:0;
+  }
+
+  .news-terms{
+    width:75%;
+  }
+  
+  .news-terms ul li{
+    padding-bottom:10px
+  }
+  .about-contacts ul{
+    margin:0;
+    padding:0;
+  }
+
+  .about-contacts ul  li {
+    display: inline-block;
+    padding-top:15px;
+  }
+
+  .about-contacts ul li a {
+    padding-left: 3px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .tnw-logo {
+    display: block;
+    width: 15%;
+    float: left;
+  }
+
+  .tnw-logo img {
+    width: 100%;
+  }
+
+  .container-1{
+    width:85%;
+    float:left
+  }
+
+  .bg-yellow{
+    width:100%;
+  }
+
+  .bg-yellow a {
+    padding-left: 150px;
+ }
+
+  .news-terms{
+    width:65%;
+    padding-bottom: 10px;
+    padding-left:10px;
+    margin:0;
+  }
+
+  .news-terms ul{
+    margin-top:15px;
+    padding:0;
+  }
+
+  .news-terms ul li{
+    padding-left:5px
+  }
+
+  .news-terms ul li a {
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .about-contacts {
+    width:35%;
+  }
+
+  .about-contacts ul {
+    margin: 0;
+    /* padding: 15px 0 0 0; */
+  }
+
+  .about-contacts li {
+    float:left;
+    padding-bottom:20px;
+  }
+
+  .about-contacts ul li a {
+    padding-left: 3px;
+    font-size: 12px;
+    font-weight:700;
+  }
+
+  .latest {
+    float: left;
+    width:98%;
+  }
+
+  .latest ul li a {
+    padding-left: 5px;
+    font-size: 12px;
+  }
+/*   
+.search {
+  /* display: none; */
+  /* border-left: 1px solid #eee; */
+  /* width:16px; */
+  /* padding-top:10px; */
+  /* padding-left:10px; */
+  /* padding-right:30px */
+/* } */ 
+  /* .header-list-3 {
+    padding: 0;
+    margin: 0;
+  } */
+  
+}
+
+
+@media (max-width: 768px) {
   .checkbtn {
     display: block;
   }
 
   .container-1 {
-    display: none;
-  }
-
-  .container-2 {
-    display: none;
+    display:none;
   }
 
   .tnw-logo {
     width: 60px;
+    position:fixed; 
   }
-
-  .bg-yellow {
-    display: block;
-  }
-}
-
-@media (max-width: 1054px) {
-  .news-terms {
-    width: 70%;
-    margin: 0;
-  }
-
-  .about-contacts {
-    width: 30%;
+  .bg-yellow{
+    display: none;
   }
 }
 
+@media (max-width:800px){
+  .about-contacts{
+    display:none
+  }
+  .news-terms{
+    width:100%
+  }
+}
 .srch {
   border-right: 1px solid #929292;
   border-left: 1px solid #929292;
