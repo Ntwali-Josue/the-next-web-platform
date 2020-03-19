@@ -295,7 +295,13 @@ header {
   }
 
   .bg-yellow {
-    display: none;
+    margin-top: 11px;
+    padding: 10px 0 10px 0;
+  }
+
+  .bg-yellow a {
+    margin: 0;
+    padding-left: 100px;
   }
 }
 
