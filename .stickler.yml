@@ -1,0 +1,3 @@
+linters:
+  stylelint:
+    config: 'stylelinter.config.js'
