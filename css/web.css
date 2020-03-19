@@ -14,9 +14,9 @@ header {
 
 .search {
   border-left: 1px solid #eee;
-  width:16px;
-  padding-top:10px;
-  padding-left:10px;
+  width: 16px;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 .header-list-1 {
@@ -24,12 +24,12 @@ header {
   display: flex;
   margin: 0;
   padding: 0;
-  width:100%;
+  width: 100%;
 }
 
 .news-terms {
   width: 74%;
-  padding-left:1%;
+  padding-left: 1%;
 }
 
 .news-terms ul {
@@ -54,7 +54,7 @@ header {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
-  font-weight:700;
+  font-weight: 700;
   padding-left: 10px;
 }
 
@@ -143,10 +143,10 @@ header {
 .bg-yellow {
   background-color: #e8c602;
   height: 20px;
-  width:98%;
-  padding-top:5px;
-  padding-bottom:5px;
-  padding-left:2%;
+  width: 98%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 2%;
 }
 
 .header-list-3 {
@@ -163,33 +163,37 @@ header {
   display: none;
 }
 
+.clear {
+  clear: both;
+}
+
 @media (max-width: 1213px) {
-  
-  .disp-none{
-    display:none;
+  .disp-none {
+    display: none;
   }
 
   .about-contacts {
-    width:25%;
-    margin:0;
-    padding:0;
+    width:  25%;
+    margin: 0;
+    padding: 0;
   }
 
-  .news-terms{
-    width:75%;
+  .news-terms {
+    width: 75%;
   }
   
-  .news-terms ul li{
-    padding-bottom:10px
+  .news-terms ul li {
+    padding-bottom: 10px
   }
-  .about-contacts ul{
-    margin:0;
-    padding:0;
+
+  .about-contacts ul {
+    margin: 0;
+    padding: 0;
   }
 
   .about-contacts ul  li {
     display: inline-block;
-    padding-top:15px;
+    padding-top: 15px;
   }
 
   .about-contacts ul li a {
@@ -208,33 +212,33 @@ header {
     width: 100%;
   }
 
-  .container-1{
-    width:85%;
-    float:left
+  .container-1 {
+    width: 85%;
+    float: left;
   }
 
-  .bg-yellow{
-    width:100%;
+  .bg-yellow {
+    width: 100%;
   }
 
   .bg-yellow a {
     padding-left: 150px;
  }
 
-  .news-terms{
-    width:65%;
+  .news-terms {
+    width: 65%;
     padding-bottom: 10px;
-    padding-left:10px;
-    margin:0;
+    padding-left: 10px;
+    margin: 0;
   }
 
-  .news-terms ul{
-    margin-top:15px;
-    padding:0;
+  .news-terms ul  {
+    margin-top: 15px;
+    padding: 0;
   }
 
-  .news-terms ul li{
-    padding-left:5px
+  .news-terms ul li {
+    padding-left: 5px
   }
 
   .news-terms ul li a {
@@ -243,50 +247,34 @@ header {
   }
 
   .about-contacts {
-    width:35%;
+    width: 35%;
   }
 
   .about-contacts ul {
     margin: 0;
-    /* padding: 15px 0 0 0; */
   }
 
   .about-contacts li {
-    float:left;
-    padding-bottom:20px;
+    float: left;
+    padding-bottom: 20px;
   }
 
   .about-contacts ul li a {
     padding-left: 3px;
     font-size: 12px;
-    font-weight:700;
+    font-weight: 700;
   }
 
   .latest {
     float: left;
-    width:98%;
+    width: 98%;
   }
 
   .latest ul li a {
     padding-left: 5px;
     font-size: 12px;
   }
-/*   
-.search {
-  /* display: none; */
-  /* border-left: 1px solid #eee; */
-  /* width:16px; */
-  /* padding-top:10px; */
-  /* padding-left:10px; */
-  /* padding-right:30px */
-/* } */ 
-  /* .header-list-3 {
-    padding: 0;
-    margin: 0;
-  } */
-  
 }
-
 
 @media (max-width: 768px) {
   .checkbtn {
@@ -294,26 +282,29 @@ header {
   }
 
   .container-1 {
-    display:none;
+    display: none;
   }
 
   .tnw-logo {
     width: 60px;
-    position:fixed; 
+    position: fixed; 
   }
-  .bg-yellow{
+
+  .bg-yellow {
     display: none;
   }
 }
 
-@media (max-width:800px){
-  .about-contacts{
-    display:none
+@media (max-width:800px) {
+  .about-contacts {
+    display: none;
   }
-  .news-terms{
-    width:100%
+
+  .news-terms {
+    width: 100%
   }
 }
+
 .srch {
   border-right: 1px solid #929292;
   border-left: 1px solid #929292;
