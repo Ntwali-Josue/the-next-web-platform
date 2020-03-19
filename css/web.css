@@ -215,10 +215,14 @@ header {
   .container-1 {
     width: 85%;
     float: left;
+    margin: 0;
+    padding: 0;
   }
 
   .bg-yellow {
     width: 100%;
+    margin: 0;
+    padding: 0;
   }
 
   .bg-yellow a {
