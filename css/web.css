@@ -6,6 +6,8 @@ body {
 header {
   padding: 0;
   margin: 0;
+  position:fixed;
+  width:100%;
 }
 
 .tnw-logo {
@@ -303,6 +305,58 @@ header {
     margin: 0;
     padding-left: 100px;
   }
+
+
+  .cover{
+    background-image: url(../image/web-designers.PNG);
+    background-size:100%;
+    float:none;
+    /* margin-top:135px; */
+    margin-left:1%;
+    height:500px;
+    width:100%;
+  }
+  
+  .cover a{
+    text-decoration:none;
+  }
+  
+  .cover a h5{
+    color:white;
+    display:none;
+    padding-top: 150px;
+    margin-left:10px;
+  }
+  
+  .cover a h2{
+    color:white;
+    /* display: none; */
+    /* padding-top: 0px; */
+    font-size:5px;
+    font-weight:700;
+    text-align:left;
+    /* margin-left:10px; */
+  }
+  
+  .cover ul{
+    display:flex;
+    background:#000;
+    /* margin-top: 30px; */
+  }
+  
+  .cover ul li{
+    color: #929292;
+    list-style:none;
+    padding-left:5px;
+    padding-bottom:5px;
+    padding-top:5px;
+  }
+.tnw-events{
+  display: none;
+}
+  .tnw-AI{
+    display:none
+  }
 }
 
 @media (max-width: 800px) {
@@ -325,3 +379,149 @@ header {
   color: red;
   margin-left: 10px;
 }
+
+.cover{
+  background-image: url(../image/web-designers.PNG);
+  background-size:100%;
+  float:left;
+  margin-top:135px;
+  margin-left:1%;
+  /* height:500px; */
+  width:64%;
+}
+
+.cover a{
+  text-decoration:none;
+}
+
+.cover a h5{
+  color:white;
+  padding-top: 150px;
+  margin-left:10px;
+}
+
+.cover a h2{
+  color:white;
+  /* padding-top: 0px; */
+  font-size:50px;
+  font-weight:700;
+  text-align:left;
+  margin-left:10px;
+}
+
+.cover ul{
+  display:flex;
+  background:#000;
+  /* margin-top: 30px; */
+}
+
+.cover ul li{
+  color: #929292;
+  list-style:none;
+  padding-left:10px;
+  padding-bottom:10px;
+  padding-top:10px;
+}
+
+.cover ul li a{
+  color: #929292;
+}
+
+.cover ul li a:hover {
+  color:#fff;
+}
+
+/* .cover ul li i{
+  padding-left:10px
+} */
+/* .cover img{
+margin-top:1px;
+width:100%
+} */
+
+.tnw-events {
+  background-image:url(../image/tnw-events.jpg);
+  background-size: 100%;
+  margin-top: 135px;
+  width: 34%;
+  height: 200px;
+  float: right;
+  margin-right: 5px;
+}
+
+.tnw-events a {
+  text-decoration: none;
+}
+
+.tnw-events a h2 {
+  color: white;
+  padding-top: 40px;
+  /* font-size: 30px; */
+  text-align: left;
+  padding-left: 10px;
+}
+
+.tnw-events ul {
+  display: flex;
+  background:#000;
+}
+
+.tnw-events ul li {
+  color: #929292;
+  list-style: none;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.tnw-events ul li a{
+  color: #929292;
+}
+
+.tnw-events ul li a:hover{
+  color: #fff;
+}
+
+.tnw-AI {
+background-image: url(../image/AI-tnw.png);
+background-size:100%;
+margin-top: 10px;
+float: right;
+width:34%;
+height:200px;
+margin-right: 5px;
+}
+
+.tnw-AI a{
+text-decoration: none;
+}
+
+.tnw-AI a h2{
+color:white;
+padding-top:100px;
+/* font-size:30px; */
+text-align:left;
+padding-left:10px;
+}
+
+.tnw-AI ul{
+display:flex;
+background:#000;
+}
+
+.tnw-AI ul li{
+color: #929292;
+list-style:none;
+padding-left:10px;
+padding-bottom:10px;
+padding-top:10px;
+}
+
+.tnw-AI ul li a{
+color: #929292;
+}
+
+.tnw-AI ul li a:hover{
+color: #fff;
+}
+
