@@ -6,8 +6,8 @@ body {
 header {
   padding: 0;
   margin: 0;
-  position:fixed;
-  width:100%;
+  position: fixed;
+  width: 100%;
 }
 
 .tnw-logo {
@@ -49,6 +49,18 @@ header {
   font-size: 15px;
   box-shadow: #d6d6d2;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cover a {
+  text-decoration: none;
+}
+
+.tnw-events a {
+  text-decoration: none;
+}
+
+.tnw-AI a {
+  text-decoration: none;
 }
 
 .news-terms li a {
@@ -96,6 +108,26 @@ header {
 .latest li {
   float: left;
   list-style: none;
+}
+
+.cover ul li a {
+  color: #929292;
+}
+
+.tnw-events ul li {
+  color: #929292;
+  list-style: none;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.tnw-AI ul li {
+  color: #929292;
+  list-style: none;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .news-terms ul li:hover .sub-menu li {
@@ -308,8 +340,8 @@ header {
 
   .cover {
     float: none;
-    margin: 0; 
-    height:70px;
+    margin: 0;
+    height: 70px;
     width: 100%;
   }
 
@@ -342,7 +374,7 @@ header {
     height: 20px;
   }
 
-  .tnw-AI a h2{
+  .tnw-AI a h2 {
     padding: 0;
   }
 }
@@ -378,10 +410,6 @@ header {
   width: 64%;
 }
 
-.cover a {
-  text-decoration: none;
-}
-
 .cover a h5 {
   color: white;
   padding-top: 150px;
@@ -409,8 +437,12 @@ header {
   padding-top: 10px;
 }
 
-.cover ul li a {
+.tnw-events ul li a {
   color: #929292;
+}
+
+.tnw-AI ul li a:hover {
+  color: #fff;
 }
 
 .cover ul li a:hover {
@@ -441,14 +473,6 @@ header {
 .tnw-events ul {
   display: flex;
   background: #000;
-}
-
-.tnw-events ul li {
-  color: #929292;
-  list-style: none;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  padding-top: 10px;
 }
 
 .tnw-events ul li a {
