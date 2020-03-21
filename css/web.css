@@ -167,7 +167,7 @@ header {
 }
 
 .latest ul {
-  padding-left: 15px;  
+  padding-left: 15px;
 }
 
 .latest li a {
@@ -441,6 +441,10 @@ header {
   color: #929292;
 }
 
+.tnw-AI ul li a {
+  color: #929292;
+}
+
 .cover ul li a:hover {
   color: #fff;
 }
@@ -467,8 +471,6 @@ header {
   background: #000;
 }
 
-
-
 .tnw-events ul li a:hover {
   color: #fff;
 }
@@ -493,10 +495,6 @@ header {
 .tnw-AI ul {
   display: flex;
   background: #000;
-}
-
-.tnw-AI ul li a {
-  color: #929292;
 }
 
 .tnw-AI ul li a:hover {
