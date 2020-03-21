@@ -130,6 +130,14 @@ header {
   padding-top: 10px;
 }
 
+.cover ul li {
+  color: #929292;
+  list-style: none;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
 .news-terms ul li:hover .sub-menu li {
   padding: 10px;
   border-bottom: 1px solid #aaa;
@@ -159,7 +167,7 @@ header {
 }
 
 .latest ul {
-  padding-left: 15px;
+  padding-left: 15px;  
 }
 
 .latest li a {
@@ -429,20 +437,8 @@ header {
   background: #000;
 }
 
-.cover ul li {
-  color: #929292;
-  list-style: none;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-
 .tnw-events ul li a {
   color: #929292;
-}
-
-.tnw-AI ul li a:hover {
-  color: #fff;
 }
 
 .cover ul li a:hover {
@@ -459,10 +455,6 @@ header {
   margin-right: 5px;
 }
 
-.tnw-events a {
-  text-decoration: none;
-}
-
 .tnw-events a h2 {
   color: white;
   padding-top: 40px;
@@ -475,9 +467,7 @@ header {
   background: #000;
 }
 
-.tnw-events ul li a {
-  color: #929292;
-}
+
 
 .tnw-events ul li a:hover {
   color: #fff;
@@ -493,10 +483,6 @@ header {
   margin-right: 5px;
 }
 
-.tnw-AI a {
-  text-decoration: none;
-}
-
 .tnw-AI a h2 {
   color: white;
   padding-top: 80px;
@@ -507,14 +493,6 @@ header {
 .tnw-AI ul {
   display: flex;
   background: #000;
-}
-
-.tnw-AI ul li {
-  color: #929292;
-  list-style: none;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  padding-top: 10px;
 }
 
 .tnw-AI ul li a {
