@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 90px 0 0 0;
   padding: 0;
 }
 
@@ -8,6 +8,7 @@ header {
   margin: 0;
   position: fixed;
   width: 100%;
+  top: 0;
 }
 
 .tnw-logo {
@@ -51,15 +52,15 @@ header {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.cover a {
+.article-1 a {
   text-decoration: none;
 }
 
-.tnw-events a {
+.article-2 a {
   text-decoration: none;
 }
 
-.tnw-AI a {
+.article-3 a {
   text-decoration: none;
 }
 
@@ -110,19 +111,11 @@ header {
   list-style: none;
 }
 
-.cover ul li a {
+.article-1 ul li a {
   color: #929292;
 }
 
-.tnw-events ul li {
-  color: #929292;
-  list-style: none;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-
-.tnw-AI ul li {
+.article-2 ul li {
   color: #929292;
   list-style: none;
   padding-left: 10px;
@@ -130,7 +123,15 @@ header {
   padding-top: 10px;
 }
 
-.cover ul li {
+.article-3 ul li {
+  color: #929292;
+  list-style: none;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.article-1 ul li {
   color: #929292;
   list-style: none;
   padding-left: 10px;
@@ -209,6 +210,99 @@ header {
   clear: both;
 }
 
+.article-1 {
+  background-image: url(../image/web-designers.PNG);
+  background-size: 100%;
+  float: left;
+  margin-top: 45px;
+  margin-left: 1%;
+  height: 400px;
+  width: 64%;
+}
+
+.article-1 a h5 {
+  color: #fff;
+  padding-top: 150px;
+  margin-left: 10px;
+}
+
+.article-1 a h2 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.article-1 ul {
+  display: flex;
+  background: #000;
+}
+
+.article-2 ul li a {
+  color: #929292;
+}
+
+.article-3 ul li a {
+  color: #929292;
+}
+
+.article-1 ul li a:hover {
+  color: #fff;
+}
+
+.article-2 {
+  background-image: url(../image/tnw-events.jpg);
+  background-size: 100%;
+  width: 34%;
+  height: 200px;
+  float: right;
+  margin-top: 45px;
+  margin-right: 5px;
+}
+
+.article-2 a h2 {
+  color: #fff;
+  padding-top: 40px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.article-2 ul {
+  display: flex;
+  background: #000;
+}
+
+.article-2 ul li a:hover {
+  color: #fff;
+}
+
+.article-3 {
+  background-image: url(../image/AI-tnw.png);
+  background-size: 100%;
+  margin-top: 10px;
+  float: right;
+  width: 34%;
+  height: 200px;
+  margin-right: 5px;
+}
+
+.article-3 a h2 {
+  color: #fff;
+  padding-top: 80px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.article-3 ul {
+  display: flex;
+  background: #000;
+}
+
+.article-3 ul li a:hover {
+  color: #fff;
+}
+
 @media (max-width: 1213px) {
   .disp-none {
     display: none;
@@ -254,7 +348,7 @@ header {
     width: 100%;
   }
 
-  .container-1 {
+  .container {
     width: 85%;
     float: left;
     margin: 0;
@@ -327,13 +421,13 @@ header {
     display: block;
   }
 
-  .container-1 {
+  .container {
     display: none;
   }
 
   .tnw-logo {
     width: 60px;
-    position: fixed;
+    position: fixed; 
   }
 
   .bg-yellow {
@@ -346,44 +440,58 @@ header {
     padding-left: 100px;
   }
 
-  .cover {
+  .article-1 {
     float: none;
     margin: 0;
-    height: 70px;
+    height: 100px;
     width: 100%;
   }
 
-  .cover a h5 {
+  .article-1 a h5 {
     display: none;
   }
 
-  .cover a h2 {
-    padding: 0;
-    font-size: 10px;
-    margin: 0;
+  .article-1 a h2 {
+    font-size: 20px;
+    padding-top: 20px;
   }
 
-  .tnw-events {
-    margin: 0;
+  .article-1 ul {
+    margin-top: 20px;
+  }
+
+  .article-2 {
+    margin: 10px 0 0 0;
     width: 100%;
-    height: 20px;
+    height: 100px;
     float: none;
   }
 
-  .tnw-events a h2 {
-    padding: 0;
+  .article-2 a h2 {
+    padding-top: 20px;
     margin: 0;
+    font-size: 20px;
   }
 
-  .tnw-AI {
-    margin: 0;
+  .article-2 ul {
+    margin-top: 20px;
+  }
+
+  .article-3 {
+    margin: 30px 0 0 0;
     float: none;
     width: 100%;
-    height: 20px;
+    height: 100px;
   }
 
-  .tnw-AI a h2 {
-    padding: 0;
+  .article-3 a h2 {
+    padding-top: 20px;
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .article-3 ul {
+    margin-top: 20px;
   }
 }
 
@@ -404,100 +512,6 @@ header {
 }
 
 .bars {
-  color: red;
+  color: #f31212;
   margin-left: 10px;
 }
-
-.cover {
-  background-image: url(../image/web-designers.PNG);
-  background-size: 100%;
-  float: left;
-  margin-top: 135px;
-  margin-left: 1%;
-  height: 400px;
-  width: 64%;
-}
-
-.cover a h5 {
-  color: white;
-  padding-top: 150px;
-  margin-left: 10px;
-}
-
-.cover a h2 {
-  color: white;
-  font-size: 50px;
-  font-weight: 700;
-  text-align: left;
-  margin-left: 10px;
-}
-
-.cover ul {
-  display: flex;
-  background: #000;
-}
-
-.tnw-events ul li a {
-  color: #929292;
-}
-
-.tnw-AI ul li a {
-  color: #929292;
-}
-
-.cover ul li a:hover {
-  color: #fff;
-}
-
-.tnw-events {
-  background-image: url(../image/tnw-events.jpg);
-  background-size: 100%;
-  margin-top: 135px;
-  width: 34%;
-  height: 200px;
-  float: right;
-  margin-right: 5px;
-}
-
-.tnw-events a h2 {
-  color: white;
-  padding-top: 40px;
-  text-align: left;
-  padding-left: 10px;
-}
-
-.tnw-events ul {
-  display: flex;
-  background: #000;
-}
-
-.tnw-events ul li a:hover {
-  color: #fff;
-}
-
-.tnw-AI {
-  background-image: url(../image/AI-tnw.png);
-  background-size: 100%;
-  margin-top: 10px;
-  float: right;
-  width: 34%;
-  height: 200px;
-  margin-right: 5px;
-}
-
-.tnw-AI a h2 {
-  color: white;
-  padding-top: 80px;
-  text-align: left;
-  padding-left: 10px;
-}
-
-.tnw-AI ul {
-  display: flex;
-  background: #000;
-}
-
-.tnw-AI ul li a:hover {
-  color: #fff;
-}
-
