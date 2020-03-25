@@ -9,6 +9,8 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 1;
+  background: #fff;
 }
 
 .tnw-logo {
@@ -211,11 +213,12 @@ header {
   background: #000;
   content: ' ';
   position: absolute;
-  opacity: 0.2;
+  opacity: 0.5;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
+  z-index: -1;
 }
 
 .article-1 {
@@ -225,6 +228,7 @@ header {
   margin-top: 45px;
   margin-left: 1%;
   height: 400px;
+  opacity: 0.8;
   width: 64%;
   position: relative;
 }
@@ -233,11 +237,12 @@ header {
   background: #000;
   content: ' ';
   position: absolute;
-  opacity: 0.2;
+  opacity: 0.5;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
+  z-index: -1;
 }
 
 .article-1 a h5 {
@@ -276,11 +281,12 @@ header {
   background: #000;
   content: ' ';
   position: absolute;
-  opacity: 0.3;
+  opacity: 0.5;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
+  z-index: -1;
 }
 
 .article-2 {
@@ -289,6 +295,7 @@ header {
   width: 34%;
   height: 195px;
   float: right;
+  opacity: 0.8;
   margin-top: 45px;
   margin-right: 5px;
   position: relative;
@@ -298,11 +305,12 @@ header {
   background: #000;
   content: ' ';
   position: absolute;
-  opacity: 0.3;
+  opacity: 0.5;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
+  z-index: -1;
 }
 
 .article-2 a h2 {
@@ -331,6 +339,8 @@ header {
   bottom: 0;
   right: 0;
   left: 0;
+  z-index: -1;
+  opacity: 0.5;
 }
 
 .article-3 {
@@ -338,6 +348,7 @@ header {
   background-size: 100%;
   margin-top: 5px;
   float: right;
+  opacity: 0.8;
   width: 34%;
   height: 200px;
   margin-right: 5px;
@@ -353,6 +364,8 @@ header {
   bottom: 0;
   right: 0;
   left: 0;
+  z-index: -1;
+  opacity: 0.5;
 }
 
 .article-3 a h2 {
