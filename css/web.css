@@ -334,7 +334,6 @@ header {
   background: #000;
   content: ' ';
   position: absolute;
-  opacity: 0.3;
   top: 0;
   bottom: 0;
   right: 0;
@@ -359,7 +358,6 @@ header {
   background: #000;
   content: ' ';
   position: absolute;
-  opacity: 0.3;
   top: 0;
   bottom: 0;
   right: 0;
