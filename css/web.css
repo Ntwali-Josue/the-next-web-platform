@@ -119,24 +119,21 @@ header {
   color: #929292;
   list-style: none;
   padding-left: 10px;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-top: 0;
 }
 
 .article-3 ul li {
   color: #929292;
   list-style: none;
   padding-left: 10px;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-top: 0;
 }
 
 .article-1 ul li {
   color: #929292;
   list-style: none;
   padding-left: 10px;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-top: 0;
 }
 
 .news-terms ul li:hover .sub-menu li {
@@ -210,6 +207,17 @@ header {
   clear: both;
 }
 
+.article-1::before {
+  background: #000;
+  content: ' ';
+  position: absolute ;
+  opacity: 0.2;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
 .article-1 {
   background-image: url(../image/web-designers.PNG);
   background-size: 100%;
@@ -218,11 +226,23 @@ header {
   margin-left: 1%;
   height: 400px;
   width: 64%;
+  position: relative;
+}
+
+.article-1::after {
+  background: #000;
+  content: ' ';
+  position: absolute ;
+  opacity: 0.2;
+  /* top: 0; */
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
 .article-1 a h5 {
   color: #fff;
-  padding-top: 150px;
+  padding-top: 100px;
   margin-left: 10px;
 }
 
@@ -236,7 +256,8 @@ header {
 
 .article-1 ul {
   display: flex;
-  background: #000;
+  margin: 0;
+  padding: 0;
 }
 
 .article-2 ul li a {
@@ -251,52 +272,100 @@ header {
   color: #fff;
 }
 
+.article-2::before {
+  background: #000;
+  content: ' ';
+  position: absolute ;
+  opacity: 0.3;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
 .article-2 {
   background-image: url(../image/tnw-events.jpg);
   background-size: 100%;
   width: 34%;
-  height: 200px;
+  height: 195px;
   float: right;
   margin-top: 45px;
   margin-right: 5px;
+  position: relative;
+}
+
+.article-2::after {
+  background: #000;
+  content: ' ';
+  position: absolute ;
+  opacity: 0.3;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
 .article-2 a h2 {
   color: #fff;
-  padding-top: 40px;
+  padding-top: 20px;
   text-align: left;
   padding-left: 10px;
 }
 
 .article-2 ul {
   display: flex;
-  background: #000;
+  margin: 0;
+  padding: 0;
 }
 
 .article-2 ul li a:hover {
   color: #fff;
 }
 
+.article-3::before {
+  background: #000;
+  content: ' ';
+  position: absolute ;
+  opacity: 0.3;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
 .article-3 {
   background-image: url(../image/AI-tnw.png);
   background-size: 100%;
-  margin-top: 10px;
+  margin-top: 5px;
   float: right;
   width: 34%;
   height: 200px;
   margin-right: 5px;
+  position: relative;
+}
+
+.article-3::after {
+  background: #000;
+  content: ' ';
+  position: absolute ;
+  opacity: 0.3;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
 .article-3 a h2 {
   color: #fff;
-  padding-top: 80px;
+  padding-top: 60px;
   text-align: left;
   padding-left: 10px;
 }
 
 .article-3 ul {
   display: flex;
-  background: #000;
+  margin: 0;
+  padding: 0;
 }
 
 .article-3 ul li a:hover {
@@ -440,24 +509,26 @@ header {
     padding-left: 100px;
   }
 
+  
   .article-1 {
     float: none;
     margin: 0;
     height: 100px;
+    position: relative;
     width: 100%;
   }
 
   .article-1 a h5 {
     display: none;
   }
-
+  
   .article-1 a h2 {
     font-size: 20px;
     padding-top: 20px;
   }
 
   .article-1 ul {
-    margin-top: 20px;
+    margin-top: 0;
   }
 
   .article-2 {
@@ -474,11 +545,11 @@ header {
   }
 
   .article-2 ul {
-    margin-top: 20px;
+    margin-top: 0;
   }
 
   .article-3 {
-    margin: 30px 0 0 0;
+    margin: 10px 0 0 0;
     float: none;
     width: 100%;
     height: 100px;
@@ -491,7 +562,7 @@ header {
   }
 
   .article-3 ul {
-    margin-top: 20px;
+    margin-top: 0;
   }
 }
 
