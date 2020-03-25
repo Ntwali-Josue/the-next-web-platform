@@ -210,7 +210,7 @@ header {
 .article-1::before {
   background: #000;
   content: ' ';
-  position: absolute ;
+  position: absolute;
   opacity: 0.2;
   top: 0;
   bottom: 0;
@@ -232,9 +232,9 @@ header {
 .article-1::after {
   background: #000;
   content: ' ';
-  position: absolute ;
+  position: absolute;
   opacity: 0.2;
-  /* top: 0; */
+  top: 0;
   bottom: 0;
   right: 0;
   left: 0;
@@ -275,7 +275,7 @@ header {
 .article-2::before {
   background: #000;
   content: ' ';
-  position: absolute ;
+  position: absolute;
   opacity: 0.3;
   top: 0;
   bottom: 0;
@@ -297,7 +297,7 @@ header {
 .article-2::after {
   background: #000;
   content: ' ';
-  position: absolute ;
+  position: absolute;
   opacity: 0.3;
   top: 0;
   bottom: 0;
@@ -347,7 +347,7 @@ header {
 .article-3::after {
   background: #000;
   content: ' ';
-  position: absolute ;
+  position: absolute;
   opacity: 0.3;
   top: 0;
   bottom: 0;
@@ -509,7 +509,6 @@ header {
     padding-left: 100px;
   }
 
-  
   .article-1 {
     float: none;
     margin: 0;
@@ -521,7 +520,7 @@ header {
   .article-1 a h5 {
     display: none;
   }
-  
+
   .article-1 a h2 {
     font-size: 20px;
     padding-top: 20px;
