@@ -325,7 +325,7 @@ header {
 .article-3::before {
   background: #000;
   content: ' ';
-  position: absolute ;
+  position: absolute;
   opacity: 0.3;
   top: 0;
   bottom: 0;
