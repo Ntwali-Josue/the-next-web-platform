@@ -121,10 +121,6 @@ header {
   list-style: none;
 }
 
-.text-grey a {
-  font-size: 12px;
-}
-
 .news p a {
   color: #000;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
@@ -293,13 +289,13 @@ header {
   color: #929292;
 }
 
+.text-grey a:hover {
+  color: #555;
+}
+
 .news p a:hover {
   color: #f42;
   text-decoration: underline;
-}
-
-.text-grey a:hover {
-  color: #555;
 }
 
 .article-1 ul li a:hover {
