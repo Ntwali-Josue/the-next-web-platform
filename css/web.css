@@ -383,6 +383,67 @@ header {
   color: #fff;
 }
 
+.news-section {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 500px;
+  align-items: center;
+}
+
+.news-section h2 {
+  color: #ff3c3c;
+  font-family: avalon, sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.news-section h2:hover {
+  color: #000;
+}
+
+.news {
+  width: 24%;
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px
+}
+
+.clear-1 {
+  clear: both;
+}
+
+.news p a {
+  color: #000;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.news p a:hover {
+  color: #ff4422;
+  text-decoration: underline;
+}
+
+.text-grey a {
+  color: #a3a3a3;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+}
+
+.text-grey{
+  color: #a3a3a3;
+  font-weight: 400;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+}
+
+.text-grey a:hover {
+  color: #555;
+}
+
 @media (max-width: 1213px) {
   .disp-none {
     display: none;
@@ -414,6 +475,26 @@ header {
 
   .about-contacts ul li a {
     padding-left: 3px;
+  }
+
+  .news-section {
+    width: 90%;
+    margin-left: 20px;
+    padding-top: 500px;
+    padding: 0;
+  }
+
+  .news {
+    width: 30%;
+    padding-right: 10px;
+  }
+
+  .clear-1 {
+    display: none;
+  }
+
+  .clear-2 {
+    clear: both;
   }
 }
 
@@ -494,6 +575,26 @@ header {
     padding-left: 5px;
     font-size: 12px;
   }
+
+  .news-section {
+    width: 90%;
+    margin-left: 20px;
+    padding-top: 500px;
+  }
+
+  .news {
+    width: 30%;
+    padding-right: 10px;
+  }
+
+  .clear-1 {
+    display: none;
+  }
+
+  .clear-2{
+    clear: both;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -523,7 +624,7 @@ header {
   .article-1 {
     float: none;
     margin: 0;
-    height: 100px;
+    height: 90px;
     position: relative;
     width: 100%;
   }
@@ -544,7 +645,7 @@ header {
   .article-2 {
     margin: 10px 0 0 0;
     width: 100%;
-    height: 100px;
+    height: 90px;
     float: none;
   }
 
@@ -562,7 +663,7 @@ header {
     margin: 10px 0 0 0;
     float: none;
     width: 100%;
-    height: 100px;
+    height: 90px;
   }
 
   .article-3 a h2 {
@@ -573,6 +674,46 @@ header {
 
   .article-3 ul {
     margin-top: 0;
+  }
+
+  .news-section {
+    width: 90%;
+    padding:0;
+    margin-left: 10px;
+    align-items: left;
+  }
+
+  .news img {
+    width: 100px;
+    float: left;
+    padding-right: 10px;
+    margin: 0;
+  }
+
+  .news {
+    width: 100%;
+    float: none;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+
+  .news p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .news p a {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .text-grey {
+    font-size: 12px;
+  }
+
+  .text-grey a {
+    font-size: 12px;
   }
 }
 
