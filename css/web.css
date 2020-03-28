@@ -66,6 +66,14 @@ header {
   text-decoration: none;
 }
 
+.text-grey a {
+  color: #a3a3a3;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+}
+
 .news-terms li a {
   color: #929292;
   text-decoration: none;
@@ -111,6 +119,18 @@ header {
 .latest li {
   float: left;
   list-style: none;
+}
+
+.text-grey a {
+  font-size: 12px;
+}
+
+.news p a {
+  color: #000;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
 }
 
 .article-1 ul li a {
@@ -273,6 +293,15 @@ header {
   color: #929292;
 }
 
+.news p a:hover {
+  color: #f42;
+  text-decoration: underline;
+}
+
+.text-grey a:hover {
+  color: #555;
+}
+
 .article-1 ul li a:hover {
   color: #fff;
 }
@@ -390,13 +419,6 @@ header {
   align-items: center;
 }
 
-.news-section h2 {
-  color: #ff3c3c;
-  font-family: avalon, sans-serif;
-  font-weight: 700;
-  font-size: 28px;
-}
-
 .news-section h2:hover {
   color: #000;
 }
@@ -405,43 +427,18 @@ header {
   width: 24%;
   float: left;
   margin-right: 10px;
-  margin-top: 10px
+  margin-top: 10px;
 }
 
 .clear-1 {
   clear: both;
 }
 
-.news p a {
-  color: #000;
-  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  text-decoration: none;
-}
-
-.news p a:hover {
-  color: #ff4422;
-  text-decoration: underline;
-}
-
-.text-grey a {
-  color: #a3a3a3;
-  text-decoration: none;
-  font-weight: 400;
-  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-  font-size: 13px;
-}
-
-.text-grey{
+.text-grey {
   color: #a3a3a3;
   font-weight: 400;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
   font-size: 13px;
-}
-
-.text-grey a:hover {
-  color: #555;
 }
 
 @media (max-width: 1213px) {
@@ -481,7 +478,6 @@ header {
     width: 90%;
     margin-left: 20px;
     padding-top: 500px;
-    padding: 0;
   }
 
   .news {
@@ -591,7 +587,7 @@ header {
     display: none;
   }
 
-  .clear-2{
+  .clear-2 {
     clear: both;
   }
 
@@ -633,6 +629,13 @@ header {
     display: none;
   }
 
+  .news-section h2 {
+    color: #ff3c3c;
+    font-family: avalon, sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+  }
+  
   .article-1 a h2 {
     font-size: 20px;
     padding-top: 20px;
@@ -678,7 +681,7 @@ header {
 
   .news-section {
     width: 90%;
-    padding:0;
+    padding: 0;
     margin-left: 10px;
     align-items: left;
   }
@@ -712,9 +715,6 @@ header {
     font-size: 12px;
   }
 
-  .text-grey a {
-    font-size: 12px;
-  }
 }
 
 @media (max-width: 800px) {
