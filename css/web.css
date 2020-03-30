@@ -74,6 +74,12 @@ header {
   font-size: 12px;
 }
 
+.latest-deals a {
+  color: #ff3c3c;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  text-decoration: none;
+}
+
 .news-terms li a {
   color: #929292;
   text-decoration: none;
@@ -129,6 +135,41 @@ header {
   text-decoration: none;
 }
 
+.pos-abs h2 a {
+  color: #fff;
+  font-size: 18px;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.latest-deals h2 a {
+  font-size: 30px;
+  font-weight: 700;
+  float: left;
+}
+
+.latest-news p a {
+  color: #f42;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.latest-deals p a {
+  float: right;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+
+.deal-1 p a {
+  text-decoration: none;
+  color: #000;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 20px;
+}
+
 .article-1 ul li a {
   color: #929292;
 }
@@ -152,6 +193,12 @@ header {
   list-style: none;
   padding-left: 10px;
   padding-top: 0;
+}
+
+.news-1 ul li {
+  color: #ff3c3c;
+  border-bottom: 1px solid #c7c7c7;
+  padding-bottom: 10px;
 }
 
 .news-terms ul li:hover .sub-menu li {
@@ -289,6 +336,14 @@ header {
   color: #929292;
 }
 
+.news-1 ul li a {
+  color: #555;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
 .text-grey a:hover {
   color: #555;
 }
@@ -296,6 +351,18 @@ header {
 .news p a:hover {
   color: #f42;
   text-decoration: underline;
+}
+
+.pos-abs h2 a:hover {
+  text-decoration: underline;
+}
+
+.latest-news p a:hover {
+  text-decoration: underline;
+}
+
+.deal-1 p a:hover {
+  color: #f42;
 }
 
 .article-1 ul li a:hover {
@@ -415,13 +482,6 @@ header {
   align-items: center;
 }
 
-.news-section h2 {
-  color: #ff3c3c;
-  font-family: avalon, sans-serif;
-  font-weight: 700;
-  font-size: 28px;
-}
-
 .news-section h2:hover {
   color: #000;
 }
@@ -456,13 +516,6 @@ header {
   position: relative;
   padding-right: 20px;
   margin-bottom: 70px;
-}
-
-.news-1 h2 {
-  color: #ff3c3c;
-  font-size: 28px;
-  font-family: Avalon, sans-serif;
-  font-weight: 700;
 }
 
 .news-1 h2:hover {
@@ -505,78 +558,21 @@ header {
   z-index: -1;
 }
 
-.pos-abs h5 {
-  color: #fff;
-  font-size: 14px;
-  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 400;
-}
-
-.pos-abs h2 a{
-  color: #fff;
-  font-size: 18px;
-  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.pos-abs h2 a:hover {
-  text-decoration: underline;
-}
-
 .latest-news {
   background-color: #ffded8;
   padding-top: 35px;
 }
 
-.latest-news h5 {
-  color: #ff4422;
-  font-family: Shentox, sans-serif;
-  font-size: 13px;
-  font-weight: 500px;
-  padding-top: 10px;
-  padding-left: 8px;
-  margin: 0;
-  width: 77%;
-  float: left;
-}
-
 .latest-news p {
   padding-left: 10px;
-  float:left;
+  float: left;
   width: 77%;
-}
-
-.latest-news p a {
-  color: #ff4422;
-  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.latest-news p a:hover {
-  text-decoration: underline;
 }
 
 .latest-news img {
   width: 20%;
   height: 80px;
   float: none;
-}
-
-.news-1 ul li {
-  color: #ff3c3c;
-  border-bottom: 1px solid #c7c7c7;
-  padding-bottom: 10px;
-}
-
-.news-1 ul li a {
-  color: #555555;
-  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  text-decoration: none;
 }
 
 .news-1 ul li a:hover {
@@ -588,43 +584,10 @@ header {
   margin: 0 auto;
 }
 
-.deal-1{
+.deal-1 {
   width: 24%;
   float: left;
-  padding-right:10px;
-}
-
-.latest-deals a {
-  color: #ff3c3c;
-  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-  text-decoration: none;
-}
-
-.latest-deals h2 {
-  padding-bottom: 5px;
-}
-
-.latest-deals  h2 a {
-  font-size: 30px;
-  font-weight: 700;
-  float: left;
-}
-
-.latest-deals p a {
-  float: right;
-  padding-right: 30px;
-  padding-bottom: 10px;
-}
-
-.deal-1 p a {
-  text-decoration: none;
-  color: #000;
-  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-  font-size: 20px;
-}
-
-.deal-1 p a:hover {
-  color: #f42;
+  padding-right: 10px;
 }
 
 @media (max-width: 1213px) {
@@ -862,8 +825,45 @@ header {
     width: 100%;
   }
 
+  .pos-abs h5 {
+    color: #fff;
+    font-size: 14px;
+    font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+  }
+
+  .latest-news h5 {
+    color: #f42;
+    font-family: Shentox, sans-serif;
+    font-size: 13px;
+    font-weight: 500px;
+    padding-top: 10px;
+    padding-left: 8px;
+    margin: 0;
+    width: 77%;
+    float: left;
+  }
+
   .article-1 a h5 {
     display: none;
+  }
+
+  .news-section h2 {
+    color: #ff3c3c;
+    font-family: avalon, sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+  }
+
+  .news-1 h2 {
+    color: #ff3c3c;
+    font-size: 28px;
+    font-family: Avalon, sans-serif;
+    font-weight: 700;
+  }
+
+  .latest-deals h2 {
+    padding-bottom: 5px;
   }
 
   .article-1 a h2 {
