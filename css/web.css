@@ -9,7 +9,7 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 1;
+  z-index: 3;
   background: #fff;
 }
 
@@ -66,6 +66,20 @@ header {
   text-decoration: none;
 }
 
+.text-grey a {
+  color: #a3a3a3;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 12px;
+}
+
+.latest-deals a {
+  color: #ff3c3c;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  text-decoration: none;
+}
+
 .news-terms li a {
   color: #929292;
   text-decoration: none;
@@ -113,6 +127,54 @@ header {
   list-style: none;
 }
 
+.news p a {
+  color: #000;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.pos-abs h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.pos-abs h2 a {
+  color: #fff;
+  font-size: 18px;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.latest-deals h2 a {
+  font-size: 30px;
+  font-weight: 700;
+  float: left;
+}
+
+.latest-news p a {
+  color: #f42;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.latest-deals p a {
+  float: right;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+
+.deal-1 p a {
+  text-decoration: none;
+  color: #000;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 20px;
+}
+
 .article-1 ul li a {
   color: #929292;
 }
@@ -136,6 +198,12 @@ header {
   list-style: none;
   padding-left: 10px;
   padding-top: 0;
+}
+
+.news-1 ul li {
+  color: #ff3c3c;
+  border-bottom: 1px solid #c7c7c7;
+  padding-bottom: 10px;
 }
 
 .news-terms ul li:hover .sub-menu li {
@@ -245,10 +313,43 @@ header {
   z-index: -1;
 }
 
+.pos-abs h5 {
+  color: #fff;
+  font-size: 14px;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+}
+
+.latest-news h5 {
+  color: #f42;
+  font-family: Shentox, sans-serif;
+  font-size: 13px;
+  font-weight: 500px;
+  padding-top: 10px;
+  padding-left: 8px;
+  margin: 0;
+  width: 77%;
+  float: left;
+}
+
 .article-1 a h5 {
   color: #fff;
   padding-top: 100px;
   margin-left: 10px;
+}
+
+.news-section h2 {
+  color: #ff3c3c;
+  font-family: avalon, sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.news-1 h2 {
+  color: #ff3c3c;
+  font-size: 28px;
+  font-family: Avalon, sans-serif;
+  font-weight: 700;
 }
 
 .article-1 a h2 {
@@ -271,6 +372,35 @@ header {
 
 .article-3 ul li a {
   color: #929292;
+}
+
+.news-1 ul li a {
+  color: #555;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.text-grey a:hover {
+  color: #555;
+}
+
+.news p a:hover {
+  color: #f42;
+  text-decoration: underline;
+}
+
+.pos-abs h2 a:hover {
+  text-decoration: underline;
+}
+
+.latest-news p a:hover {
+  text-decoration: underline;
+}
+
+.deal-1 p a:hover {
+  color: #f42;
 }
 
 .article-1 ul li a:hover {
@@ -383,6 +513,121 @@ header {
   color: #fff;
 }
 
+.news-section {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 500px;
+  align-items: center;
+}
+
+.news-section h2:hover {
+  color: #000;
+}
+
+.news {
+  width: 24%;
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.clear-1 {
+  clear: both;
+}
+
+.text-grey {
+  color: #a3a3a3;
+  font-weight: 400;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+}
+
+.news-expanded {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 90px;
+}
+
+.news-1 {
+  width: 30%;
+  float: left;
+  position: relative;
+  padding-right: 20px;
+  margin-bottom: 70px;
+}
+
+.news-1 h2:hover {
+  color: #000;
+}
+
+.news-1 img {
+  position: absolute;
+  height: 250px;
+}
+
+.pos-abs::before {
+  background: #000;
+  content: ' ';
+  position: absolute;
+  opacity: 0.5;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.pos-abs {
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 24px;
+  padding-left: 10px;
+  z-index: 1;
+}
+
+.pos-abs::after {
+  background: #000;
+  content: ' ';
+  position: absolute;
+  opacity: 0.5;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.latest-news {
+  background-color: #ffded8;
+}
+
+.latest-news p {
+  padding-left: 10px;
+  float: left;
+  width: 77%;
+}
+
+.latest-news img {
+  width: 20%;
+  height: 80px;
+  float: none;
+}
+
+.news-1 ul li a:hover {
+  color: #000;
+}
+
+.latest-deals {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.deal-1 {
+  width: 24%;
+  float: left;
+  padding-right: 10px;
+}
+
 @media (max-width: 1213px) {
   .disp-none {
     display: none;
@@ -414,6 +659,64 @@ header {
 
   .about-contacts ul li a {
     padding-left: 3px;
+  }
+
+  .news-section {
+    width: 90%;
+    margin-left: 20px;
+    padding-top: 500px;
+  }
+
+  .news {
+    width: 30%;
+    padding-right: 10px;
+  }
+
+  .clear-1 {
+    display: none;
+  }
+
+  .clear-2 {
+    clear: both;
+  }
+
+  .news-expanded {
+    width: 100%;
+  }
+
+  .news-1 {
+    width: 40%;
+    padding-left: 10px;
+  }
+
+  .news-1 img {
+    width: 94%;
+  }
+
+  .pos-abs {
+    width: 98%;
+  }
+
+  .pos-abs h2 {
+    padding: 0;
+    margin: 0;
+  }
+
+  .latest-news img {
+    width: 20%;
+  }
+
+  .latest-deals {
+    width: 90%;
+    margin-left: 20px;
+  }
+
+  .deal-1 {
+    width: 30%;
+  }
+
+  .latest-deals .clear {
+    display: none;
   }
 }
 
@@ -494,8 +797,66 @@ header {
     padding-left: 5px;
     font-size: 12px;
   }
-}
 
+  .news-section {
+    width: 90%;
+    margin-left: 20px;
+    padding-top: 500px;
+  }
+
+  .news {
+    width: 30%;
+    padding-right: 10px;
+  }
+
+  .clear-1 {
+    display: none;
+  }
+
+  .clear-2 {
+    clear: both;
+  }
+
+  .news-expanded {
+    width: 90%;
+    margin-left: 12px;
+    padding-top: 100px;
+  }
+
+  .news-1 {
+    width: 40%;
+  }
+
+  .news-1 img {
+    width: 92%;
+  }
+
+  .pos-abs {
+    width: 97%;
+  }
+
+  .pos-abs h2 {
+    padding: 0;
+    margin: 0;
+  }
+
+  .latest-news img {
+    width: 20%;
+  }
+
+  .latest-deals {
+    width: 90%;
+    margin-left: 20px;
+  }
+
+  .deal-1 {
+    width: 30%;
+  }
+
+  .latest-deals .clear {
+    display: none;
+  }
+}
 @media (max-width: 768px) {
   .checkbtn {
     display: block;
@@ -523,13 +884,22 @@ header {
   .article-1 {
     float: none;
     margin: 0;
-    height: 100px;
+    height: 90px;
     position: relative;
     width: 100%;
   }
 
   .article-1 a h5 {
     display: none;
+  }
+
+  .latest-deals h2 {
+    padding-bottom: 5px;
+  }
+
+  .pos-abs h2 {
+    padding: 0;
+    margin: 0;
   }
 
   .article-1 a h2 {
@@ -544,7 +914,7 @@ header {
   .article-2 {
     margin: 10px 0 0 0;
     width: 100%;
-    height: 100px;
+    height: 90px;
     float: none;
   }
 
@@ -562,7 +932,7 @@ header {
     margin: 10px 0 0 0;
     float: none;
     width: 100%;
-    height: 100px;
+    height: 90px;
   }
 
   .article-3 a h2 {
@@ -573,6 +943,95 @@ header {
 
   .article-3 ul {
     margin-top: 0;
+  }
+
+  .news-section {
+    width: 80%;
+    padding: 0;
+    margin-left: 10px;
+    align-items: left;
+  }
+
+  .news img {
+    width: 100px;
+    float: left;
+    padding-right: 10px;
+    margin: 0;
+  }
+
+  .news {
+    width: 100%;
+    float: none;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+
+  .news p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .news p a {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .text-grey {
+    font-size: 12px;
+  }
+
+  .news-expanded {
+    width: 100%;
+  }
+
+  .news-1 {
+    width: 87%;
+    margin: 0 22px;
+  }
+
+  .news-1 img {
+    width: 94%;
+  }
+
+  .latest-news {
+    margin-top: 5px;
+  }
+
+  .latest-news img {
+    width: 20%;
+  }
+
+  .pos-abs {
+    padding-bottom: 50px;
+    width: 97%;
+  }
+
+  .latest-deals {
+    width: 90%;
+    padding: 0;
+    margin-left: 10px;
+    align-items: left;
+  }
+
+  .deal-1 {
+    width: 100%;
+    float: none;
+    margin-bottom: 30px;
+  }
+
+  .deal-1 img {
+    width: 100px;
+    float: left;
+    padding-right: 10px;
+    margin: 0;
+  }
+
+  .deal-1 p a {
+    margin: 0;
+    padding: 0;
+    float: none;
+    font-size: 14px;
   }
 }
 
