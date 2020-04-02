@@ -206,6 +206,11 @@ header {
   padding-bottom: 10px;
 }
 
+.footer-1 ul li {
+  list-style: none;
+  float: left;
+}
+
 .news-terms ul li:hover .sub-menu li {
   padding: 10px;
   border-bottom: 1px solid #aaa;
@@ -380,6 +385,15 @@ header {
   font-size: 14px;
   font-weight: 400;
   text-decoration: none;
+}
+
+.footer-1 ul li a {
+  color: #bebebe;
+  text-decoration: none;
+  font-family: Shentox, sans-serif;
+  font-size: 12px;
+  font-weight: 700px;
+  padding-right: 15px;
 }
 
 .text-grey a:hover {
@@ -655,20 +669,6 @@ header {
   margin-left: 35%;
 }
 
-.footer-1 ul li {
-  list-style: none;
-  float: left;
-}
-
-.footer-1 ul li a {
-  color: #bebebe;
-  text-decoration: none;
-  font-family: Shentox, sans-serif;
-  font-size: 12px;
-  font-weight: 700px;
-  padding-right: 15px;
-}
-
 .footer-1 ul li a:hover {
   color: #fff;
 }
@@ -923,7 +923,7 @@ header {
   }
 
   .footer-1 ul {
-    margin-left: 310px
+    margin-left: 310px;
   }
 }
 @media (max-width: 768px) {
@@ -1104,7 +1104,7 @@ header {
   }
 
   .footer-1 ul {
-    margin-left: 180px
+    margin-left: 180px;
   }
 }
 
